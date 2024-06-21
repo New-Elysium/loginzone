@@ -27,9 +27,9 @@ const LoginScreen: React.FC = () => {
     <LinearGradient
     locations={[0,1]}
       colors={['#140034', '#01010d']}
-      style={{ flex: 1, justifyContent: 'center', alignItems: 'center',width:"100%" }}
+     className='flex-1 justify-center items-center' style={{width:"100%"}}
     >
-      <View style={{ width: '100%', padding: 20, borderRadius: 10, backgroundColor: 'rgba(255, 255, 255, 0.2)' }}>
+      <View className='p-5 rounded-lg bg-white bg-opacity-20' style={{width:"100%"}}>
         <Text style={{ fontSize: 24, color: 'white', marginBottom: 20, textAlign: 'center' }}>Login</Text>
         <TextInput
           placeholder="Username"
